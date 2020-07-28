@@ -1,22 +1,22 @@
-# 3. Coffee Shop: Menu Layout
+# 5. Coffee Shop: Update Card Component
 
-The flow of information on a website is key to communicate effectively to your users. The combination of the Box Model and CSS display property gives developers the ability to layout HTML elements in a meaningful way.
+With your knowledge surrounding the use of Flexbox, update your card component to resemble the second version found on the style guide.
 
-You can think of the box model as the ability to control the space an element should take up. The display property determines how an element is displayed and can be used as a means of controlling its layout in relation to other elements.
+Include your updated card component in your Coffee Shop landing page.
 
 ## Menu
 
 Using the Box Model and display property, update the Nitro Coffee menu to match the following mockup. This mockup does not provide exact spacing values, however work to the best of your abilities to closely resemble the mockup.
 
-##  <img src="./assets/menu_day_4_mockup.jpg" />
+##  <img src="./assets/card-versions.png" />
 
-# 4. Coffee Shop: Card Component
+# 6. Coffee Shop: Page Layout Using Flexbox
 
-Looking at the landing page for our Coffee Shop, can you identify some components throughout the site?
+##  Menu
+Referencing this mockup, use Flexbox to update the hero section to place the menu title in the center of the hero image and to update the main navigation bar.
 
-Using the style guide provided, create the proper HTML and CSS for the version 1 card component.
+##  Landing Page
+Referencing this mockup, update the discount section (located under the card section) using Flexbox to create the proper layout.
 
-Remember to create reusable CSS and use the BEM methodology
-
-## <img src="./assets/index_day_5_mockup.png" />
+## <img src="./assets/menu_day_6_mockup.png" />
 
