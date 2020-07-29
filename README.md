@@ -20,3 +20,23 @@ Referencing this mockup, update the discount section (located under the card sec
 
 ## <img src="./assets/menu_day_6_mockup.png" />
 
+# 7. Coffee Shop: Positioning
+
+##  Menu
+
+Referencing this mockup, use absolute and relative positioning to add the detail box around the menu heading.
+
+## <img src="./assets/menu_day_7_mockup.png" />
+
+##  Landing Page
+
+Referencing this mockup, update the following components:
+
+*   Three teal buttons
+*   "We're Different" section
+    *   Image Box detail
+*   Footer
+    *   Coffee bean images
+
+## <img src="./assets/index__day_7_mockup.png" />
+
