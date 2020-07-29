@@ -25,7 +25,8 @@
     }
 }
 
-.menu-nav {
+.menu {
+    &-nav {
     text-align: center;
     width: 100%;
     height: 4.63rem;
@@ -34,6 +35,8 @@
     align-items: center;
     justify-content: center;
     margin: 0;
+    }
+    
     &-link {
         color: white;
         padding-left: 1rem;
