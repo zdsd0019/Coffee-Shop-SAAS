@@ -15,7 +15,9 @@
 }
 
 .product {
-    width: 18rem;
+    width: 15rem;
+    align-self: center;
+    padding-left: 3rem;
 
     &-align {
         display: flex;
@@ -34,8 +36,6 @@
     }
 
     &-name {
-        text-align: center;
-        width: 20rem;
         margin: 0;
         font-weight: bold;
     }
