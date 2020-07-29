@@ -1,11 +1,16 @@
-.title-box{
-    background-color: rgba(0,0,0, 0.95);
-    color: white;
-    width: 17.81rem;
-    height: 11.56rem;
-    border: 0.25rem;
-    offset: 0.94rem;
-    margin: 0;
+.title {
+
+    &-box{
+        background-color: rgba(0,0,0, 0.95);
+        color: white;
+        width: 17.81rem;
+        height: 11.56rem;
+        border: 0.25rem;
+        outline-offset: 0.94rem;
+        margin: 0;
+        align-self: center;
+    } 
+    
     &-bg{
         background-image: url(../../assets/coffee-circle.jpg);
         width: 90rem;

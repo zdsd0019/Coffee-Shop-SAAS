@@ -48,6 +48,15 @@ h3 {
   margin-right: 3.13rem;
 }
 
+.nav-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .button {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.31rem;
@@ -87,6 +96,9 @@ h3 {
           align-items: center;
   background-color: #fff0ed;
   width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .active {

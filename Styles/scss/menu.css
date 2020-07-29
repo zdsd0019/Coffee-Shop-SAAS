@@ -4,11 +4,14 @@
   width: 17.81rem;
   height: 11.56rem;
   border: 0.25rem;
-  offset: 0.94rem;
+  outline-offset: 0.94rem;
   margin: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
-.title-box-bg {
+.title-bg {
   background-image: url(../../assets/coffee-circle.jpg);
   width: 90rem;
   height: 35.94rem;

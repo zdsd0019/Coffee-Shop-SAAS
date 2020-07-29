@@ -45,6 +45,10 @@ h3{
         display: inline-flex;
         margin-right: 3.13rem;
     }
+    &-logo {
+        display: flex;
+        align-items: center;
+    }
 }
 
 
@@ -83,6 +87,7 @@ h3{
     align-items: center;
     background-color: #fff0ed;
     width: 100%;
+    justify-content: space-between;
 }
 
 .active{
