@@ -6,19 +6,18 @@
     border: 0.25rem;
     offset: 0.94rem;
     margin: 0;
-}
-
-.title-bg{
-    background-image: url(../../assets/coffee-circle.jpg);
-    width: 90rem;
-    height: 35.94rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    text-align: center;
+    &-bg{
+        background-image: url(../../assets/coffee-circle.jpg);
+        width: 90rem;
+        height: 35.94rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+    }
 }
 
 .menu-nav {
@@ -30,11 +29,10 @@
     align-items: center;
     justify-content: center;
     margin: 0;
-}
-
-.menu-link {
-    color: white;
-    padding-left: 1rem;
+    &-link {
+        color: white;
+        padding-left: 1rem;
+    }
 }
 
 #hotdrinks {

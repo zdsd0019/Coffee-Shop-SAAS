@@ -26,23 +26,27 @@ h3{
     font-weight: 100;
 }
 
-.nav-heading{
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 3.125rem;
-    font-weight: 100;
-    margin-left: 1rem;
+.nav {
+
+    &-heading{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 3.125rem;
+        font-weight: 100;
+        margin-left: 1rem;
+    }
+
+    &-link{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.31rem;
+        list-style-type: none;
+        text-decoration: none;
+        /* margin-right: 3.13rem; */
+        align-items: center;
+        display: inline-flex;
+        margin-right: 3.13rem;
+    }
 }
 
-.nav-link{
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.31rem;
-    list-style-type: none;
-    text-decoration: none;
-    /* margin-right: 3.13rem; */
-    align-items: center;
-    display: inline-flex;
-    margin-right: 3.13rem;
-}
 
 .button{
     font-family: Helvetica, Arial, sans-serif;
@@ -54,19 +58,15 @@ h3{
     font-size: 2.81rem;
 }
 
-.text{
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 2.06rem;
-}
-
 .small-text{
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.31rem;
+    font-size: 0.5rem;
+    font-weight: normal;
 }
 
 .text{
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.125rem;
+    font-size: 0.5rem;
 }
 
 #button{
@@ -76,16 +76,6 @@ h3{
     background-color: #5bacc3;
     border-width: 0.13rem;
     outline-offset: 0.31rem;
-}
-
-.product-card-one {
-    background-color: #fff0ed;
-    padding: 2rem 0 2rem 0;
-}
-
-.product-card-two {
-    background-color: #f7f7f7;
-    padding: 1rem 0 1rem 0;
 }
 
  .nav-container {
@@ -103,15 +93,31 @@ h3{
     color: #5bacc3;
 }
 
-.product-heading {
-    text-align: center;
+.product {
+    &-card {
+        &-one {
+            background-color: #fff0ed;
+            padding: 2rem 0 2rem 0;
+        }
+        
+        &-two {
+            background-color: #f7f7f7;
+            padding: 1rem 0 1rem 0;
+        }
+    }
+    
+    &-heading {
+        text-align: center;
+    }
+    
+    &-price {
+        color: #5bacc3;
+        text-align: center;
+        margin: 0;
+    }
 }
 
-.product-price {
-    color: #5bacc3;
-    text-align: center;
-    margin: 0;
-}
+
 
 .margin {
     margin: 0;

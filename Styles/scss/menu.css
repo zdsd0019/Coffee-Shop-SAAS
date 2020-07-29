@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-.title-bg {
+.title-box-bg {
   background-image: url(../../assets/coffee-circle.jpg);
   width: 90rem;
   height: 35.94rem;
@@ -42,7 +42,7 @@
   margin: 0;
 }
 
-.menu-link {
+.menu-nav-link {
   color: white;
   padding-left: 1rem;
 }

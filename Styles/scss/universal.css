@@ -58,19 +58,15 @@ h3 {
   font-size: 2.81rem;
 }
 
-.text {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 2.06rem;
-}
-
 .small-text {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.31rem;
+  font-size: 0.5rem;
+  font-weight: normal;
 }
 
 .text {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.125rem;
+  font-size: 0.5rem;
 }
 
 #button {
@@ -80,16 +76,6 @@ h3 {
   background-color: #5bacc3;
   border-width: 0.13rem;
   outline-offset: 0.31rem;
-}
-
-.product-card-one {
-  background-color: #fff0ed;
-  padding: 2rem 0 2rem 0;
-}
-
-.product-card-two {
-  background-color: #f7f7f7;
-  padding: 1rem 0 1rem 0;
 }
 
 .nav-container {
@@ -109,6 +95,16 @@ h3 {
 
 .divider {
   color: #5bacc3;
+}
+
+.product-card-one {
+  background-color: #fff0ed;
+  padding: 2rem 0 2rem 0;
+}
+
+.product-card-two {
+  background-color: #f7f7f7;
+  padding: 1rem 0 1rem 0;
 }
 
 .product-heading {
