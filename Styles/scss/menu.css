@@ -4,11 +4,22 @@
   width: 17.81rem;
   height: 11.56rem;
   border: 0.25rem;
-  outline-offset: 0.94rem;
   margin: 0;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  position: absolute;
+}
+
+.title-box-outline {
+  width: 15.5rem;
+  height: 10rem;
+  border: 4px;
+  outline: 4px solid #5bacc3;
+  outline-offset: 0.94rem;
+  position: relative;
+  margin-top: 190px;
+  margin-right: 33px;
 }
 
 .title-bg {
