@@ -35,6 +35,13 @@
   margin-left: 100px;
 }
 
+.discount-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3rem;
+}
+
 .product {
   width: 15rem;
   -ms-flex-item-align: center;
@@ -186,7 +193,7 @@
 
 .about-us-info {
   font-size: 2rem;
-  width: 34%;
+  width: 55%;
 }
 
 .about-us-align {
@@ -202,23 +209,22 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 30%;
+  width: 50%;
 }
 
 .icons-container-outline {
-  width: 15.5rem;
-  height: 10rem;
+  width: 25rem;
+  height: 25rem;
   border: 4px;
   outline: 4px solid #5bacc3;
   outline-offset: 0.94rem;
-  position: relative;
-  margin-top: 190px;
-  margin-right: 33px;
+  position: absolute;
+  margin-top: -1rem;
 }
 
 .icons-container-background {
   background-image: url(../../assets/coldbrewbackground.png);
-  width: 27.19rem;
+  width: 49rem;
   height: 27.19rem;
   background-size: contain;
   display: -webkit-box;
@@ -227,9 +233,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 10rem;
+  margin-top: 4rem;
 }
 
 .icons-container-image {
   margin-left: 30%;
+  position: relative;
 }
 /*# sourceMappingURL=index.css.map */

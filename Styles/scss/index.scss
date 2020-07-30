@@ -18,6 +18,11 @@
         align-self: center;
         margin-left: 100px;
     }
+
+    &-align{
+        display: flex;
+        padding-top: 3rem;
+    }
 }
 
 .product {
@@ -140,7 +145,7 @@
 
     &-info{
         font-size: 2rem;
-        width: 34%;
+        width: 55%;
     }
 
     &-align {
@@ -151,29 +156,32 @@
 .icons-container {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 50%;
 
     &-outline {
-        width: 15.5rem;
-        height: 10rem;
+        width: 25rem;
+        height: 25rem;
         border: 4px;
         outline: 4px solid #5bacc3;
         outline-offset: 0.94rem;
-        position: relative;
-        margin-top: 190px;
-        margin-right: 33px;
+        position: absolute;
+        // margin-left: 1rem;
+        margin-top: -1rem;
     }
 
     &-background {
         background-image: url(../../assets/coldbrewbackground.png);
-        width: 27.19rem;
+        width: 49rem;
         height: 27.19rem;
         background-size: contain;
         display: flex;
         align-items: center;
+        margin-right: 10rem;
+        margin-top: 4rem;
     }
 
     &-image {
         margin-left: 30%;
+        position: relative;
     }
 }
