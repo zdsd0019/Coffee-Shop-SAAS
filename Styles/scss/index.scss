@@ -188,9 +188,14 @@
 
 .footer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     &-image {
         height: 7.5rem;
+
+        &-left {
+            display: flex;
+        }
+
     }
 }
