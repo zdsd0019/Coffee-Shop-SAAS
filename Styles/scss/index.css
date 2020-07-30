@@ -204,4 +204,19 @@
           justify-content: space-between;
   width: 30%;
 }
+
+.icons-container-outline {
+  width: 15.5rem;
+  height: 10rem;
+  border: 4px;
+  outline: 4px solid #5bacc3;
+  outline-offset: 0.94rem;
+  position: relative;
+  margin-top: 190px;
+  margin-right: 33px;
+}
+
+.icons-container-background {
+  background-image: url(../../assets/coldbrewbackground.png);
+}
 /*# sourceMappingURL=index.css.map */

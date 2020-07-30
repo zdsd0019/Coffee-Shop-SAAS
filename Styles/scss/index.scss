@@ -152,4 +152,19 @@
     display: flex;
     justify-content: space-between;
     width: 30%;
+
+    &-outline {
+        width: 15.5rem;
+        height: 10rem;
+        border: 4px;
+        outline: 4px solid #5bacc3;
+        outline-offset: 0.94rem;
+        position: relative;
+        margin-top: 190px;
+        margin-right: 33px;
+    }
+
+    &-background {
+        background-image: url(../../assets/coldbrewbackground.png);
+    }
 }
