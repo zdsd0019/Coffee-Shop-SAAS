@@ -21,7 +21,7 @@
 
     &-container{
         align-self: center;
-        margin-left: 100px;
+        margin-left: 6.25rem;
     }
 
     &-align{
@@ -102,41 +102,36 @@
         &-va{
             width: 15.5rem;
             height: 10rem;
-            border: 4px;
-            outline: 4px solid #5bacc3;
+            border: 0.25rem;
+            outline: 0.25rem solid #5bacc3;
             outline-offset: 0.94rem;
             position: relative;
-            margin-top: 190px;
-            margin-right: 33px;
+            margin-top: 11.88rem;
+            margin-right: 2.06rem;
         }
 
         &-shopnow {
             width: 15.5rem;
             height: 10rem;
-            border: 4px;
-            outline: 4px solid #5bacc3;
+            border: 0.25rem;
+            outline: 0.25rem solid #5bacc3;
             outline-offset: 0.94rem;
             position: relative;
-            margin-top: 190px;
-            margin-right: 33px;
+            margin-top: 11.88rem;
+            margin-right: 2.06rem;
         }
 
         &-learnmore {
             width: 15.5rem;
             height: 10rem;
-            border: 4px;
-            outline: 4px solid #5bacc3;
+            border: 0.25rem;
+            outline: 0.25rem solid #5bacc3;
             outline-offset: 0.94rem;
             position: relative;
-            margin-top: 190px;
-            margin-right: 33px;
+            margin-top: 11.88rem;
+            margin-right: 2.06rem;
         }
     }
-}
-
-.footer {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .about-us {
@@ -166,8 +161,8 @@
     &-outline {
         width: 25rem;
         height: 25rem;
-        border: 4px;
-        outline: 4px solid #5bacc3;
+        border: 0.25rem;
+        outline: 0.25rem solid #5bacc3;
         outline-offset: 0.94rem;
         position: absolute;
         // margin-left: 1rem;
@@ -188,5 +183,14 @@
     &-image {
         margin-left: 30%;
         position: relative;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+
+    &-image {
+        height: 7.5rem;
     }
 }
