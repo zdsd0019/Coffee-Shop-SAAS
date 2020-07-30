@@ -13,6 +13,11 @@
         align-items: center;
         justify-content: center;
     }
+
+    &-container{
+        align-self: center;
+        margin-left: 100px;
+    }
 }
 
 .product {
@@ -79,7 +84,8 @@
         }
 
     &-learn-more {
-        margin-top: 1rem;
+        margin-top: 2rem;
+        display: flex;
     }
     
     &-outline {
@@ -105,7 +111,7 @@
             margin-right: 33px;
         }
 
-        &learnmore {
+        &-learnmore {
             width: 15.5rem;
             height: 10rem;
             border: 4px;
@@ -124,7 +130,7 @@
 }
 
 .about-us {
-    display: flex;
+    display: contents;
     justify-content: space-between;
     width: 15%;
 
@@ -133,7 +139,17 @@
     }
 
     &-info{
-        font-size: 1.5rem;
-        width: 22%;
+        font-size: 2rem;
+        width: 34%;
     }
+
+    &-align {
+        display: flex;
+    }
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
 }
