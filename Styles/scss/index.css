@@ -5,6 +5,10 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .discount-banner {
@@ -112,6 +116,43 @@
   padding-top: 3.13rem;
 }
 
+.button-learn-more {
+  margin-top: 1rem;
+}
+
+.button-outline-va {
+  width: 15.5rem;
+  height: 10rem;
+  border: 4px;
+  outline: 4px solid #5bacc3;
+  outline-offset: 0.94rem;
+  position: relative;
+  margin-top: 190px;
+  margin-right: 33px;
+}
+
+.button-outline-shopnow {
+  width: 15.5rem;
+  height: 10rem;
+  border: 4px;
+  outline: 4px solid #5bacc3;
+  outline-offset: 0.94rem;
+  position: relative;
+  margin-top: 190px;
+  margin-right: 33px;
+}
+
+.button-outlinelearnmore {
+  width: 15.5rem;
+  height: 10rem;
+  border: 4px;
+  outline: 4px solid #5bacc3;
+  outline-offset: 0.94rem;
+  position: relative;
+  margin-top: 190px;
+  margin-right: 33px;
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,5 +160,24 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 15%;
+}
+
+.about-us-icons {
+  height: 3.13rem;
+}
+
+.about-us-info {
+  font-size: 1.5rem;
+  width: 22%;
 }
 /*# sourceMappingURL=index.css.map */

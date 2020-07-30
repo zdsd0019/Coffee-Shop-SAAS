@@ -1,6 +1,7 @@
 .discount {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 
     &-banner{
         width: 71.06rem;
@@ -69,13 +70,70 @@
     }
 }
 
-.button-view-all {
-    display: flex;
-    justify-content: center;
-    padding-top: 3.13rem;
+.button {
+
+    &-view-all {
+        display: flex;
+        justify-content: center;
+        padding-top: 3.13rem;
+        }
+
+    &-learn-more {
+        margin-top: 1rem;
+    }
+    
+    &-outline {
+        &-va{
+            width: 15.5rem;
+            height: 10rem;
+            border: 4px;
+            outline: 4px solid #5bacc3;
+            outline-offset: 0.94rem;
+            position: relative;
+            margin-top: 190px;
+            margin-right: 33px;
+        }
+
+        &-shopnow {
+            width: 15.5rem;
+            height: 10rem;
+            border: 4px;
+            outline: 4px solid #5bacc3;
+            outline-offset: 0.94rem;
+            position: relative;
+            margin-top: 190px;
+            margin-right: 33px;
+        }
+
+        &learnmore {
+            width: 15.5rem;
+            height: 10rem;
+            border: 4px;
+            outline: 4px solid #5bacc3;
+            outline-offset: 0.94rem;
+            position: relative;
+            margin-top: 190px;
+            margin-right: 33px;
+        }
+    }
 }
 
 .footer {
     display: flex;
     justify-content: space-evenly;
+}
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+
+    &-icons {
+        height: 3.13rem;
+    }
+
+    &-info{
+        font-size: 1.5rem;
+        width: 22%;
+    }
 }
