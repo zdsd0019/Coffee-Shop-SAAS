@@ -218,5 +218,18 @@
 
 .icons-container-background {
   background-image: url(../../assets/coldbrewbackground.png);
+  width: 27.19rem;
+  height: 27.19rem;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons-container-image {
+  margin-left: 30%;
 }
 /*# sourceMappingURL=index.css.map */

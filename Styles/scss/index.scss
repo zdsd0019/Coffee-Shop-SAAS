@@ -166,5 +166,14 @@
 
     &-background {
         background-image: url(../../assets/coldbrewbackground.png);
+        width: 27.19rem;
+        height: 27.19rem;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+    }
+
+    &-image {
+        margin-left: 30%;
     }
 }
