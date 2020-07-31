@@ -195,7 +195,23 @@
 
         &-left {
             display: flex;
+            padding-left: 2rem;
+            position: relative;
+            bottom: 3rem;
         }
 
+        &-right {
+            margin-top: 7.5rem;
+            position: relative;
+            left: 2rem;
+        }
+    }
+
+    &-address {
+        margin-right: 18.5rem;
+    }
+
+    &-hours {
+        margin-right: 18.5rem;
     }
 }

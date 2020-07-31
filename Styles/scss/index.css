@@ -259,11 +259,22 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-left: 2rem;
+  position: relative;
+  bottom: 3rem;
 }
 
-.footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.footer-image-right {
+  margin-top: 7.5rem;
+  position: relative;
+  left: 2rem;
+}
+
+.footer-address {
+  margin-right: 18.5rem;
+}
+
+.footer-hours {
+  margin-right: 18.5rem;
 }
 /*# sourceMappingURL=index.css.map */
