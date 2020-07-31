@@ -97,39 +97,38 @@
         margin-top: 2rem;
         display: flex;
     }
+
+    &-shop-now {
+        margin-top: 2rem;
+        display: flex;
+    }
     
     &-outline {
-        &-va{
-            width: 15.5rem;
-            height: 10rem;
-            border: 0.25rem;
-            outline: 0.25rem solid #5bacc3;
-            outline-offset: 0.94rem;
+        &-viewall{
+            width: 10.5rem;
+            height: 2.5rem;
+            outline: 0.125rem solid black;
+            outline-offset: 0.31rem;
             position: relative;
-            margin-top: 11.88rem;
-            margin-right: 2.06rem;
+            right: 11.4rem;
         }
 
         &-shopnow {
-            width: 15.5rem;
-            height: 10rem;
-            border: 0.25rem;
-            outline: 0.25rem solid #5bacc3;
-            outline-offset: 0.94rem;
+            width: 10.5rem;
+            height: 2.5rem;
+            outline: 0.125rem solid black;
+            outline-offset: 0.31rem;
             position: relative;
-            margin-top: 11.88rem;
-            margin-right: 2.06rem;
+            right: 11.4rem;
         }
 
         &-learnmore {
-            width: 15.5rem;
-            height: 10rem;
-            border: 0.25rem;
-            outline: 0.25rem solid #5bacc3;
-            outline-offset: 0.94rem;
+            width: 10.5rem;
+            height: 2.5rem;
+            outline: 0.125rem solid black;
+            outline-offset: 0.31rem;
             position: relative;
-            margin-top: 11.88rem;
-            margin-right: 2.06rem;
+            right: 11.4rem;
         }
     }
 }

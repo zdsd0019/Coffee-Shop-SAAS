@@ -146,37 +146,38 @@
   display: flex;
 }
 
-.button-outline-va {
-  width: 15.5rem;
-  height: 10rem;
-  border: 0.25rem;
-  outline: 0.25rem solid #5bacc3;
-  outline-offset: 0.94rem;
+.button-shop-now {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button-outline-viewall {
+  width: 10.5rem;
+  height: 2.5rem;
+  outline: 0.125rem solid black;
+  outline-offset: 0.31rem;
   position: relative;
-  margin-top: 11.88rem;
-  margin-right: 2.06rem;
+  right: 11.4rem;
 }
 
 .button-outline-shopnow {
-  width: 15.5rem;
-  height: 10rem;
-  border: 0.25rem;
-  outline: 0.25rem solid #5bacc3;
-  outline-offset: 0.94rem;
+  width: 10.5rem;
+  height: 2.5rem;
+  outline: 0.125rem solid black;
+  outline-offset: 0.31rem;
   position: relative;
-  margin-top: 11.88rem;
-  margin-right: 2.06rem;
+  right: 11.4rem;
 }
 
 .button-outline-learnmore {
-  width: 15.5rem;
-  height: 10rem;
-  border: 0.25rem;
-  outline: 0.25rem solid #5bacc3;
-  outline-offset: 0.94rem;
+  width: 10.5rem;
+  height: 2.5rem;
+  outline: 0.125rem solid black;
+  outline-offset: 0.31rem;
   position: relative;
-  margin-top: 11.88rem;
-  margin-right: 2.06rem;
+  right: 11.4rem;
 }
 
 .about-us {
