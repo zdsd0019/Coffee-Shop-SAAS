@@ -125,8 +125,17 @@
       justify-content: space-around;
 }
 
-.hero-image-description {
-  width: 25%;
+.hero-description {
+  width: 41%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.hero-paragraph {
+  margin: 0;
+  font-size: 2rem;
+  padding-top: 2rem;
 }
 
 .button-view-all {

@@ -77,11 +77,21 @@
     }
 }
 
-.hero-image{
-    display: flex;
-    justify-content: space-around;
+.hero {
+
+    &-image{
+        display: flex;
+        justify-content: space-around;
+    }
     &-description {
-        width: 25%;
+        width: 41%;
+        align-self: center;
+    }
+
+    &-paragraph {
+        margin: 0;
+        font-size: 2rem;
+        padding-top: 2rem;
     }
 }
 
