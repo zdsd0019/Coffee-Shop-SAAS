@@ -120,7 +120,7 @@
             outline: 0.125rem solid black;
             outline-offset: 0.31rem;
             position: relative;
-            right: 11.4rem;
+            right: 10px;
         }
 
         &-shopnow {
@@ -129,7 +129,7 @@
             outline: 0.125rem solid black;
             outline-offset: 0.31rem;
             position: relative;
-            right: 11.4rem;
+            // right: 11.4rem;
         }
 
         &-learnmore {
@@ -138,7 +138,7 @@
             outline: 0.125rem solid black;
             outline-offset: 0.31rem;
             position: relative;
-            right: 11.4rem;
+            // right: 11.4rem;
         }
     }
 }
@@ -168,32 +168,53 @@
     width: 50%;
 
     &-outline {
-        width: 25rem;
-        height: 25rem;
+        width: 420px;
+        height: 420px;
         border: 0.25rem;
         outline: 0.25rem solid #5bacc3;
-        outline-offset: 0.94rem;
-        position: absolute;
-        // margin-left: 1rem;
+        position: relative;
         margin-top: -1rem;
+        margin-top: -3rem;
+        right: 43px;
     }
 
     &-background {
         background-image: url(../../assets/coldbrewbackground.png);
-        width: 49rem;
-        height: 27.19rem;
-        background-size: contain;
+        width: 435px;
+        height: 435px;
+        background-size: cover;
         display: flex;
         align-items: center;
         margin-right: 10rem;
         margin-top: 4rem;
+        justify-content: center;
     }
 
     &-image {
-        margin-left: 30%;
-        position: relative;
+        position: absolute;
+        transform: rotate3d(0,0,1,0deg);
+        perspective: 100px;
+        // padding-left: 120px;
+        z-index: 10;
+        &:hover {
+            transform: rotate3d(0,0,1,360deg);
+            animation-iteration-count: infinite;
+            animation-name: rotate; 
+            animation-timing-function: linear;
+            animation-duration: 1.5s;
+        }
+
     }
 }
+
+@keyframes rotate{ 
+    from{
+        transform: rotate3d(0,0,1,0deg);
+    }
+    to{
+        transform:rotate3d(0,0,1,360deg);
+    }
+} 
 
 .footer {
     display: flex;

@@ -168,7 +168,7 @@
   outline: 0.125rem solid black;
   outline-offset: 0.31rem;
   position: relative;
-  right: 11.4rem;
+  right: 10px;
 }
 
 .button-outline-shopnow {
@@ -177,7 +177,6 @@
   outline: 0.125rem solid black;
   outline-offset: 0.31rem;
   position: relative;
-  right: 11.4rem;
 }
 
 .button-outline-learnmore {
@@ -186,7 +185,6 @@
   outline: 0.125rem solid black;
   outline-offset: 0.31rem;
   position: relative;
-  right: 11.4rem;
 }
 
 .about-us {
@@ -223,20 +221,21 @@
 }
 
 .icons-container-outline {
-  width: 25rem;
-  height: 25rem;
+  width: 420px;
+  height: 420px;
   border: 0.25rem;
   outline: 0.25rem solid #5bacc3;
-  outline-offset: 0.94rem;
-  position: absolute;
+  position: relative;
   margin-top: -1rem;
+  margin-top: -3rem;
+  right: 43px;
 }
 
 .icons-container-background {
   background-image: url(../../assets/coldbrewbackground.png);
-  width: 49rem;
-  height: 27.19rem;
-  background-size: contain;
+  width: 435px;
+  height: 435px;
+  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,11 +244,53 @@
           align-items: center;
   margin-right: 10rem;
   margin-top: 4rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .icons-container-image {
-  margin-left: 30%;
-  position: relative;
+  position: absolute;
+  -webkit-transform: rotate3d(0, 0, 1, 0deg);
+          transform: rotate3d(0, 0, 1, 0deg);
+  -webkit-perspective: 100px;
+          perspective: 100px;
+  z-index: 10;
+}
+
+.icons-container-image:hover {
+  -webkit-transform: rotate3d(0, 0, 1, 360deg);
+          transform: rotate3d(0, 0, 1, 360deg);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+            transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+            transform: rotate3d(0, 0, 1, 0deg);
+  }
+  to {
+    -webkit-transform: rotate3d(0, 0, 1, 360deg);
+            transform: rotate3d(0, 0, 1, 360deg);
+  }
 }
 
 .footer {

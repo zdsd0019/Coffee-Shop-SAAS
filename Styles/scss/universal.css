@@ -95,6 +95,7 @@ h3 {
   background-color: #5bacc3;
   border-width: 0.13rem;
   outline-offset: 0.31rem;
+  position: absolute;
 }
 
 .nav-container {
