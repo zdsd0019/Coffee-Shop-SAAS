@@ -82,9 +82,13 @@ h3{
     height: 3.44rem;
     color: white;
     background-color: #5bacc3;
-    border-width: 0.13rem;
-    outline-offset: 0.31rem;
     position: absolute;
+    left: 15px;
+
+    &:active {
+        bottom: -5px;
+        left: -5px;
+    }
 }
 
  .nav-container {

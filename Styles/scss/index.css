@@ -145,7 +145,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 3.13rem;
+  width: 10.5rem;
+  height: 2.5rem;
+  outline: 0.125rem solid black;
+  outline-offset: 0.31rem;
+  position: relative;
+  right: 10px;
+  z-index: 1;
+  left: 600px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 .button-learn-more {
@@ -169,6 +178,7 @@
   outline-offset: 0.31rem;
   position: relative;
   right: 10px;
+  z-index: 10;
 }
 
 .button-outline-shopnow {
