@@ -140,26 +140,21 @@
 
 .button-viewall-container {
   position: relative;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   z-index: 1;
 }
 
-.button-learn-more {
-  margin-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.button-learnmore-container {
+  position: relative;
+  z-index: 1;
 }
 
-.button-shop-now {
-  margin-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.button-shopnow-container {
+  position: relative;
+  z-index: 1;
 }
 
-.button-background-viewall {
+.button-background {
   width: 180px;
   height: 55px;
   left: 5px;
@@ -168,22 +163,6 @@
   margin: auto;
   position: absolute;
   background-color: #5bacc3;
-}
-
-.button-background-shopnow {
-  width: 10.5rem;
-  height: 2.5rem;
-  outline: 0.125rem solid black;
-  outline-offset: 0.31rem;
-  position: relative;
-}
-
-.button-background-learnmore {
-  width: 10.5rem;
-  height: 2.5rem;
-  outline: 0.125rem solid black;
-  outline-offset: 0.31rem;
-  position: relative;
 }
 
 .about-us {
