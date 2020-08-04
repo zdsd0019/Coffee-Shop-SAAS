@@ -138,23 +138,11 @@
   padding-top: 2rem;
 }
 
-.button-view-all {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 10.5rem;
-  height: 2.5rem;
-  outline: 0.125rem solid black;
-  outline-offset: 0.31rem;
+.button-viewall-container {
   position: relative;
-  right: 10px;
-  z-index: 1;
-  left: 600px;
   margin-top: 80px;
   margin-bottom: 40px;
+  z-index: 1;
 }
 
 .button-learn-more {
@@ -171,25 +159,26 @@
   display: flex;
 }
 
-.button-outline-viewall {
+.button-background-viewall {
+  width: 180px;
+  height: 55px;
+  left: 5px;
+  bottom: -59px;
+  z-index: 2;
+  margin: auto;
+  position: absolute;
+  background-color: #5bacc3;
+}
+
+.button-background-shopnow {
   width: 10.5rem;
   height: 2.5rem;
   outline: 0.125rem solid black;
   outline-offset: 0.31rem;
   position: relative;
-  right: 10px;
-  z-index: 10;
 }
 
-.button-outline-shopnow {
-  width: 10.5rem;
-  height: 2.5rem;
-  outline: 0.125rem solid black;
-  outline-offset: 0.31rem;
-  position: relative;
-}
-
-.button-outline-learnmore {
+.button-background-learnmore {
   width: 10.5rem;
   height: 2.5rem;
   outline: 0.125rem solid black;
