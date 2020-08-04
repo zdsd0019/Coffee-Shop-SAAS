@@ -40,3 +40,29 @@ Referencing this mockup, update the following components:
 
 ## <img src="./assets/index__day_7_mockup.png" />
 
+# 8. Coffee Shop: Animations
+
+To create a better user experience, most websites use animations such as on-load page fade in, scroll animations or simple hover effects.
+
+Let's add some animations to our Coffee Shop website. Using transition or animation/keyframes, recreate the following animations:
+
+*   Button Animation
+    *   When a user clicks the any action button, this animation will occur.
+    *   Hint: You will need a CSS pseudo-class to know when a user clicks.
+*   Spin Animation
+    *   When a user hovers over the tilted can box (including the abstract line image), the can should infinitely rotate, completing one rotation in two seconds.
+*   Flashing Animation
+    *   The discount code box should flash from its original color to the color used by the action button. The animation occurs over two and a half seconds.
+
+
+<video controls loop>
+  <source src="./assets/button-animation.mp4" type="video/mp4">
+</video>
+
+<video controls loop>
+  <source src="./assets/spin-anmiation.mp4" type="video/mp4">
+</video>
+
+<video controls loop>
+  <source src="./assets/flash-animation.mp4" type="video/mp4">
+</video>
