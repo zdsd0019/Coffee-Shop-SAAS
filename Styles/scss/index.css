@@ -11,32 +11,6 @@
           flex-direction: column;
 }
 
-.discount-banner {
-  width: 71.06rem;
-  height: 11.88rem;
-  background-color: rgba(0, 0, 0, 0.85);
-  color: white;
-  font-size: 2.81rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.discount-banner-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .discount-container {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -49,6 +23,78 @@
   display: -ms-flexbox;
   display: flex;
   padding-top: 3rem;
+}
+
+.banner {
+  background-color: white;
+  width: 71.06rem;
+  height: 11.88rem;
+  text-align: center;
+  max-width: 71.063rem;
+  background-color: rgba(0, 0, 0, 0.85);
+  font-size: 2.813rem;
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  -webkit-animation-name: discount;
+          animation-name: discount;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .strong {
+  font-weight: bold;
+}
+
+@-webkit-keyframes discount {
+  0% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  25% {
+    background-color: #5BACC3;
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  75% {
+    background-color: #5BACC3;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.85) d;
+  }
+}
+
+@keyframes discount {
+  0% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  25% {
+    background-color: #5BACC3;
+  }
+  50% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  75% {
+    background-color: #5BACC3;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.85) d;
+  }
 }
 
 .product {

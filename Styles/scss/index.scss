@@ -2,22 +2,40 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
 
-    &-banner{
-        width: 71.06rem;
-        height: 11.88rem;
-        background-color: rgba(0, 0, 0, 0.85);
-        color: white;
-        font-size: 2.81rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    // &-banner{
+       
+    //     background-color: rgba(0, 0, 0, 0.85);
+    //     color: white;
+    //     font-size: 2.81rem;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
 
-        &-container{
-            display: flex;
-            justify-content: center;
-        }
-    }
+    //     &-container{
+    //         display: flex;
+    //         justify-content: center;
+    //     }
+    //     @keyframes discount {
+    //         0% {
+    //             background-color: rgba(0, 0, 0, 0.85);
+    //         }
+    //         25% {
+    //             background-color: #5BACC3;
+    //         }
+    //         50% {
+    //             background-color: rgba(0, 0, 0, 0.85);
+    //         }
+    //         75% {
+    //             background-color: #5BACC3;
+    //         }
+    //         100% {
+    //             background-color: rgba(0, 0, 0, 0.85)d;
+    //         }
+    //     }
+    // }
+    
 
     &-container{
         align-self: center;
@@ -27,6 +45,50 @@
     &-align{
         display: flex;
         padding-top: 3rem;
+    }
+}
+
+.banner {
+    background-color: white;
+    width: 71.06rem;
+    height: 11.88rem;
+    text-align: center;
+    max-width: 71.063rem;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-size: 2.813rem;
+    color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    animation-name: discount;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .strong {
+        font-weight: bold;
+    }
+}
+
+@keyframes discount {
+    0% {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+    25% {
+        background-color: #5BACC3;
+    }
+    50% {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+    75% {
+        background-color: #5BACC3;
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.85)d;
     }
 }
 
@@ -122,35 +184,6 @@
         margin: auto;
         position: absolute;
         background-color: #5bacc3;
-
-        // &-viewall{
-        //     width: 180px;
-        //     height: 55px;
-        //     left: 5px;
-        //     bottom: -59px;
-        //     z-index: 2;
-        //     margin: auto;
-        //     position: absolute;
-        //     background-color: #5bacc3;
-        // }
-
-        // &-shopnow {
-        //     width: 10.5rem;
-        //     height: 2.5rem;
-        //     outline: 0.125rem solid black;
-        //     outline-offset: 0.31rem;
-        //     position: relative;
-        //     // right: 11.4rem;
-        // }
-
-        // &-learnmore {
-        //     width: 10.5rem;
-        //     height: 2.5rem;
-        //     outline: 0.125rem solid black;
-        //     outline-offset: 0.31rem;
-        //     position: relative;
-        //     // right: 11.4rem;
-        // }
     }
 }
 
@@ -205,7 +238,6 @@
         position: absolute;
         transform: rotate3d(0,0,1,0deg);
         perspective: 100px;
-        // padding-left: 120px;
         z-index: 10;
         &:hover {
             transform: rotate3d(0,0,1,360deg);
